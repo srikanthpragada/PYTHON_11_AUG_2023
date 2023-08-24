@@ -5,6 +5,7 @@ marks = data.split(",")
 
 total = 0
 for m in marks:
-    total += int(m)
+    if m.isdigit():
+        total += int(m)
 
 print(total)
