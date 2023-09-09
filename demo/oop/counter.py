@@ -11,7 +11,8 @@ class Counter:
     def reset(self):
         self.value = 0
 
-    def getvalue(self):
+    @property
+    def counter(self):
         return self.value
 
 
@@ -19,4 +20,5 @@ c1 = Counter()
 c1.inc()
 c1.inc()
 c1.dec()
-print(c1.getvalue())
+print(c1.counter)
+
