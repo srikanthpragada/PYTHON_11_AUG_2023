@@ -1,0 +1,6 @@
+This is a short story
+Line1 in the: story
+Line2 in    the same story
+This is; third     line.
+This is forth line
+The End
