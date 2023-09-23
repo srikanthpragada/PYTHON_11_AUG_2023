@@ -21,4 +21,4 @@ for emp in employees:
 con.commit()
 cur.close()
 con.close()
-print(f"Inserted {count} employees")
+print(f"Inserted {count} employee(s)")
